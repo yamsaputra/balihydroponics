@@ -16,18 +16,18 @@
 <body>
     <section class="header">
         <nav>
-            <a href="index.html"><img src="images/bcf.png"</a>
-            <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Contact Us</a></li>
-                    <li><a href="">Menu</a></li>
-                    <li><a href="">Location</a></li>
-                </ul>
-
-            </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <a href="index.html"><img src="images/1.png" </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Menu</a></li>
+                        <li><a href="">Location</a></li>
+                    </ul>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
         <div class="text-box">
             <h1>Bali City Cafe & Hydroponics Farm</h1>
@@ -39,19 +39,71 @@
 
     </section>
 
-<!--Javascript for Toggle Menu-->
+    <!--Gallery-->
+
+    <section class="gallery">
+        <h1>Gallery</h1>
+        <p>Home-made hydroponic system using mostly built and not bought items</p>
+
+        <div class="row">
+            <div class="galleryimage">
+                <img src="images/hydroponic1.jpeg">
+                <h3>First phase</h3>
+            </div>
+            <div class="galleryimage">
+                <img src="images/hydroponic2.jpeg">
+                <h3>Second phase</h3>
+            </div>
+            <div class="galleryimage">
+                <img src="images/hydroponic3.jpeg">
+                <h3>Third phase</h3>
+            </div>
+            <div class="galleryimage">
+                <img src="images/hydroponic4.jpeg">
+                <h3>Fourth phase</h3>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Contact Us-->
+
+    <section class="contactus">
+
+        <h1>Contact us</h1>
+        <p>We would be more than happy to hear to your inquiries or simply just general questions!</p>
+
+        <div class="row">
+            <div class="contactdetails">
+                <h3>WhatsApp/Telp:</h3>
+                <p>+6281239211058</p>
+            </div>
+            <div class="contactdetails">
+                <h3>Instagram:</h3>
+                <p>@balicityfarm</p>
+            </div>
+            <div class="contactdetails">
+                <h3>E-Mail</h3>
+                <p>balicityfarm@gmail.com</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Javascript for Toggle Menu-->
     <script>
         var navLinks = document.getElementById("navLinks");
 
-        function showMenu(){
+        function showMenu() {
             navLinks.style.right = "0";
         }
-        function hideMenu(){
+        function hideMenu() {
             navLinks.style.right = "-200px";
         }
-            
+
     </script>
 
 </body>
 
 </html>
+
+<!--Video until 46 Mins-->

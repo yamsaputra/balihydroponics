@@ -19,7 +19,8 @@ nav{
     align-items: center;
 }
 nav img{
-    width: 150px;
+    width: 350px;
+
 }
 
 .nav-links{
@@ -114,7 +115,7 @@ nav .fa{
         right: -200px;
         text-align: left;
         z-index: 2;
-        transition: 1s;
+        transition: 2s;
 
     }
 
@@ -128,5 +129,108 @@ nav .fa{
 
     .nav-links ul{
         padding: 30px;
+    }
+}
+
+/*--Gallery--*/
+
+.gallery{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.galleryimage{
+    flex-basis: 25%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.galleryimage img{
+    width: 100%;
+    flex-direction: row;
+}
+
+/* .layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+} */
+
+/* .layer:hover{
+    background: rgba(0, 255, 55, 0.452);
+} */
+
+/* .layer h3{
+    width: 100%;
+    font-weight: 500;
+    color:rgb(255, 255, 255);
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+} */
+
+/*--Contact us--*/
+
+.contactus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactdetails{
+    flex-basis: 20%;
+    background:rgba(192, 255, 151, 0.7);
+    border-radius: 20px;
+    margin-bottom: 8%;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.contactdetails:hover{
+    box-shadow: 0 0 20px 0px #505050;
+}
+
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
     }
 }

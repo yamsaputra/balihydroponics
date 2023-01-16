@@ -97,6 +97,11 @@ nav .fa{
 }
 
 @media(max-width: 700px){
+    
+    nav img{
+    width: 200px;
+    }
+
 
     .text-box h1{
         font-size: 20px;

@@ -16,31 +16,36 @@
 <body>
     <section class="header">
         <nav>
-            <a href="index.html"><img src="images/1.png" </a>
+            <a href="index.html"><img src="images/1.png" alt="BCF Logo"> </a>
                 <div class="nav-links" id="navLinks">
                     <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Contact Us</a></li>
-                        <li><a href="">Menu</a></li>
-                        <li><a href="">Location</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="ALL MENUS.pdf">Menu</a></li>
+                        <li><a href="https://goo.gl/maps/2Z1YmvD4SpRgFxNS7">Location</a></li>
                     </ul>
-                    <i class="fa fa-bars" onclick="showMenu()"></i>
                 </div>
                 <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
         <div class="text-box">
             <h1>Bali City Cafe & Hydroponics Farm</h1>
             <p>
-                A cozy café surrounded by our DIY hydroponic system located just off bypass Ngurah Rai
+                A cozy café surrounded by our DIY hydroponic system located just off Ngurah Rai Bypass
             </p>
-            <a href="" class="hero-btn">Visit us</a>
+            <a href="https://goo.gl/maps/2Z1YmvD4SpRgFxNS7" class="hero-btn">Visit us</a>
         </div>
+        <div class="text-box2">
+        <p>
+            ⬇ Scroll down for more ⬇ 
+        </p>
+    </div>
+
+       
 
     </section>
 
-    <!--Gallery-->
-
+<!--Gallery-->
+<section class="below">
     <section class="gallery">
         <h1>Gallery</h1>
         <p>Home-made hydroponic system using mostly built and not bought items</p>
@@ -48,19 +53,27 @@
         <div class="row">
             <div class="galleryimage">
                 <img src="images/hydroponic1.jpeg">
+                <div class="layer">
                 <h3>First phase</h3>
+            </div>
             </div>
             <div class="galleryimage">
                 <img src="images/hydroponic2.jpeg">
+                <div class="layer">
                 <h3>Second phase</h3>
+            </div>
             </div>
             <div class="galleryimage">
                 <img src="images/hydroponic3.jpeg">
+                <div class="layer">
                 <h3>Third phase</h3>
+            </div>
             </div>
             <div class="galleryimage">
                 <img src="images/hydroponic4.jpeg">
+            <div class="layer">
                 <h3>Fourth phase</h3>
+            </div>
             </div>
         </div>
     </section>
@@ -68,7 +81,7 @@
 
     <!--Contact Us-->
 
-    <section class="contactus">
+    <section id="contact" class="contactus">
 
         <h1>Contact us</h1>
         <p>We would be more than happy to hear to your inquiries or simply just general questions!</p>
@@ -79,15 +92,25 @@
                 <p>+6281239211058</p>
             </div>
             <div class="contactdetails">
+                <a style="text-decoration:none;" href="https://www.instagram.com/balicityfarm/">
                 <h3>Instagram:</h3>
                 <p>@balicityfarm</p>
+                </a>
             </div>
             <div class="contactdetails">
-                <h3>E-Mail:</h3>
+                <h3>E-Mail</h3>
                 <p>balicityfarm@gmail.com</p>
             </div>
         </div>
+
     </section>
+
+    <!--Footer-->
+    <section class="footer">
+        <h4>Developed by Saputra, 2023</h4>
+    </section>
+</section>
+
 
     <!--Javascript for Toggle Menu-->
     <script>
